@@ -1,0 +1,75 @@
+/* Estilos para o container do perfil */
+.perfil-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vh;
+    margin-left: 480px;
+    margin-top: 190px;
+    min-height: 50vh; /* Isso garante que o conteúdo fique centralizado verticalmente na tela inteira */
+    background-color: #f0f0f0; /* Cor de fundo de sua escolha */
+    border: 2px solid #ccc; /* Adicione uma borda sólida com a cor desejada */
+    padding: 20px; /* Adicione espaço interno ao redor do componente */
+    font-size: 30px;
+  }
+  
+  /* Estilos para o título "Seu Perfil" */
+  .perfil-title {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para o botão de sair */
+  .perfil-logout-button {
+    background-color: #ff0000; /* Cor de fundo do botão de sair */
+    color: #fff; /* Cor do texto do botão */
+    border: none;
+    padding: 10px 20px;
+    margin-left: 720px;
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .perfil-logout-button:hover {
+    background-color: #cc0000; /* Cor de fundo do botão de sair ao passar o mouse */
+  }
+  
+  /* Estilos para o container de dados do perfil */
+.perfil-dados {
+    text-align: center; /* Centralize o texto horizontalmente */
+    background-color: #ffffff; /* Cor de fundo do container */
+    padding: 30px; /* Adicione espaço interno ao redor do container */
+    border-radius: 10px; /* Adicione bordas arredondadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adicione uma sombra suave */
+    font-size: 25px;
+  }
+  
+  /* Estilos para a imagem de perfil */
+  .perfil-dados img {
+    max-width: 150px; /* Defina a largura máxima da imagem */
+    border-radius: 50%; /* Faça a imagem de perfil circular (bordas arredondadas) */
+    margin-bottom: 10px; /* Adicione um pequeno espaço abaixo da imagem */
+  }
+  
+  /* Estilos para os campos de dados do perfil */
+  .perfil-dados p {
+    margin: 10px 0; /* Adicione espaço vertical entre os campos */
+    font-size: 16px; /* Tamanho da fonte dos campos de dados */
+    font-size: 25px;
+  }
+  
+  /* Estilos para o texto em negrito (strong) */
+  .perfil-dados strong {
+    font-weight: bold;
+    margin-right: 5px; /* Adicione espaço à direita dos campos em negrito */
+  }
+  
+  /* Estilos para o email (adicione uma cor diferente) */
+  .perfil-dados p strong:nth-of-type(4) {
+    color: #007bff; /* Cor do email */
+  }
+  
